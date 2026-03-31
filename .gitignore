@@ -14,3 +14,5 @@ venv
 *.njsproj
 *.sln
 *.sw?
+*.db
+*.sqlite
