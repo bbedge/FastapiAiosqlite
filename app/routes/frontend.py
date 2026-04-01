@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse, FileResponse
 
 templates = Jinja2Templates(directory="app/templates")
-router = APIRouter(tags=['Frontend'])
+router = APIRouter(tags=['frontend'])
 title = "FastAPI + Aiosqlite, пример."
 
 
